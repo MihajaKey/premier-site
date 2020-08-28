@@ -1,0 +1,49 @@
+.navigation{
+    display: flex;
+    /*background-color: red ;*/
+    height: 100px;
+}
+
+.info__site{
+    padding: 10px;
+    margin: 10px auto;
+    text-align: left;
+    flex : 1 ;
+}
+
+/*@media(
+
+)*/
+
+.logo__site{
+    width: 100%;
+}
+
+.name__site{
+    /*color : white;*/
+    font-size: 40px;
+}
+
+.navigation__options{
+    display: flex;
+    flex : 1.5;
+    color : white; 
+}
+
+.navigation__option{
+    padding: 10px;
+    margin: 10px auto;
+}
+.navigation__option:hover{
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.navigation__option:hover{
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.navigation__option:hover>a>p{
+    color: beige;
+}
